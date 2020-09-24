@@ -1,0 +1,373 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 1140px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-wrapper {
+    background: #1d2126;
+}
+
+.header {
+    margin: auto;
+    width: 1140px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-top: 32px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+}
+
+.nav-wrapper input[type="checkbox"] {
+    display: none;
+}
+
+.main-menu li a {
+    margin-right: 10px;
+    color: #a4aead;
+    text-transform: uppercase;
+    text-decoration: none;
+    font: 600 14px 'Open Sans', sans-serif;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    padding: 4px 12px;
+}
+
+.main-menu li a:hover {
+    border: 2px solid #555c64;
+}
+
+.main-menu li a.active {
+    color: #23b7a4;
+    border: 2px solid #23b7a4;
+    border-radius: 3px;
+}
+
+.gallery {
+
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* height: 660px; */
+}
+
+.gallery div {
+    min-height: 500px;
+}
+
+.gallery div img {
+    width: 100%;
+}
+
+.banner-wrapper {
+    width: 1140px;
+    margin: auto;
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.banner h1 {
+    font: 700 36px 'Quattrocento Sans', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    width: 60%;
+    color: #ccd0d7;
+    font: 400 16px/26px 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.banner ul {
+    display: flex;
+}
+
+.banner ul li {
+    padding-right: 10px;
+}
+
+.banner ul li a {
+    font: 700 14px 'Quattrocento Sans', sans-serif;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.banner ul li a:hover,
+.banner ul li a.active-button {
+    background: #23b7a4;
+    border: 2px solid #23b7a4;
+}
+
+.gallery div img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.gallery div img {
+    width: 100%;
+}
+
+element.style {
+    display: none;
+}
+
+.slick-dots li {
+    width: 13px;
+    height: 13px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 30px;
+    z-index: 10;
+}
+
+.slick-dots li button {
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 13px;
+    height: 13px;
+}
+
+.slick-dots .slick-active button {
+    background: #fff;
+    border-radius: 50%;
+}
+
+.slick-dots li button:before {
+    display: none;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+
+
+.about-wrapper {
+    border-bottom: 1px solid #e1e6ea;
+}
+
+.about {
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.coll-1 {
+    width: 100%;
+    padding-right: 30px;
+}
+
+h2 {
+    padding-left: 10px;
+    border-left: 10px solid #e1e6ea;
+    font: 700 36px/36px 'Quattrocento Sans', sans-serif;
+    color: #292f36;
+    text-transform: uppercase;
+    margin: 80px 0 60px 0;
+}
+
+.coll-1 p {
+    font: 400 16px/26px 'Open Sans', sans-serif;
+    color: #8d8f92;
+    padding-bottom: 40px;
+}
+
+.coll-1 p a {
+    text-decoration: none;
+    color: #65686c;
+}
+
+.icon-wrapper {
+    margin-top: 20px;
+}
+
+.icon-wrapper ul {
+    display: flex;
+}
+
+.icon-wrapper li a {
+    margin-right: 1px;
+    padding: 20px;
+    background: #c8cdd0;
+    text-decoration: none;
+}
+
+.icon-wrapper li a:hover {
+    background: #d0d5d9;
+}
+
+[class^="icon-"] {
+    font-size: 23px;
+    padding-top: 19px;
+}
+
+.icon-google:before {
+    content: "\ea88";
+    color: #fff;
+}
+
+.icon-twitter:before {
+    content: "\e903";
+}
+
+.icon-dribble:before {
+    content: "\e904";
+}
+
+.icon-facebook:before {
+    content: "\e905";
+}
+
+.icon-behance:before {
+    content: "\eaa8";
+    color: #fff;
+}
+
+.icon-linkedin2:before {
+    content: "\eaca";
+}
+
+.coll2-3 {
+    margin: 180px 20px 60px 0;
+    display: flex;
+}
+
+.coll-2 ul li {
+    margin-bottom: 78px;
+    font: 400 20px/55px 'Quattrocento Sans', sans-serif;
+    width: 50px;
+    height: 50px;
+    background: #23b7a4;
+    text-align: center;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.coll-3 h3 {
+    color: #292f36;
+    font: 700 20px/20px 'Quattrocento Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.coll-3 p {
+    color: #8d8f92;
+    font: 400 16px/26px 'Open Sans', sans-serif;
+    padding-bottom: 55px;
+}
+
+.team-wrapper {
+    width: 1140px;
+    margin: auto;
+}
+
+.team {
+    padding-bottom: 94px;
+}
+
+.team .card {
+    width: 263px;
+    height: 375px;
+    background: #e1e6ea;
+    position: relative;
+}
+
+.team .card img {
+    display: block;
+}
+
+.team .card .name {
+    text-transform: uppercase;
+    font: 700 16px/26px 'Quattrocento Sans', sans-serif;
+    color: #292f36;
+    padding-left: 20px;
+}
+
+.team .card .prof {
+    padding-left: 20px;
+    font: 400 14px/14px 'Open Sans', sans-serif;
+    color: #8d8f92;
+}
+
+.card-wrepper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card ul {
+    display: none;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: 50px;
+}
+
+.card li a:hover {
+    background: #4e5a62;
+}
+
+.card:hover ul {
+    display: block;
+}
+
+.card:hover img {
+    opacity: 50%;
+}
+
+.card:hover .name,
+.card:hover .prof {
+    color: #fff;
+}
+
+.card:hover .name-prof {
+    background: #292f36;
+}
+
+.card ul li {
+    float: right;
+}
+
+.card ul li a {
+    text-decoration: none;
+    background: #3a454d;
+    margin-right: 1px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.name-prof {
+    background: #e1e6ea;
+    height: 74px;
+    padding-top: 15px;
+}
+
+
+
